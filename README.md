@@ -4,6 +4,12 @@ A simple web tool to find YouTube video download url.
 
 Powered by [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
+## Online Demo
+[YouTube Video Downloader](http://18.179.174.37/youtube/)
+
+## Screen Shot
+![screen_shot](https://i.imgur.com/MFrVaTl.png)
+
 ## How It Works
 1. Use php to build an api that can call `youtube-dl -j [youtube video url]`.
 2. Make a web view to communicate with the api.
@@ -11,7 +17,7 @@ Powered by [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 ## Getting Started
 
 1. Setup a php server.
-2. Setup your server domain in `api.php`.
+2. Setting your server domain in `api.php`.
 ```
 $domain = 'http://localhost/youtube/';
 ```
@@ -26,3 +32,4 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
 youtube-dl --update
 ```
+
