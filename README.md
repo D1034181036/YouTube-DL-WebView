@@ -11,7 +11,7 @@ Powered by [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 ![screen_shot](https://i.imgur.com/MFrVaTl.png)
 
 ## How It Works
-1. Use php to build an api that can call `youtube-dl -j [youtube video url]`.
+1. Build a php api to call `youtube-dl -j [youtube video url]`.
 2. Make a web view to communicate with the api.
 
 ## Getting Started
