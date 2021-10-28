@@ -5,7 +5,7 @@ A simple web tool to find YouTube video download url.
 Powered by [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
 ## Online Demo
-### [YouTube Video Downloader](http://18.179.174.37/youtube/)
+### [YouTube Video Downloader](http://18.176.61.9/youtube/)
 
 ## Screen Shot
 ![screen_shot](https://i.imgur.com/MFrVaTl.png)
