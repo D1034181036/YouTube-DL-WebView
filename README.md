@@ -13,19 +13,15 @@ Powered by [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 ## Getting Started
 
 1. Setup a php server.
-2. Setting your server domain in `api.php`.
-```
-$domain = 'http://localhost/youtube/';
-```
-3. Install youtube-dl.
+2. Install youtube-dl, Command:
 
-### Linux
 ```
+### Linux
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
-### Windows
+
 ```
+### Windows
 youtube-dl --update
 ```
-
