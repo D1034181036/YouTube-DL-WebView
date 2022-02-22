@@ -1,4 +1,4 @@
-# YouTube Video Downloader
+# YouTube-DL-WebView
 
 A simple web tool to find YouTube video download url.
 
@@ -9,10 +9,6 @@ Powered by [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
 ## Screen Shot
 ![screen_shot](https://i.imgur.com/MFrVaTl.png)
-
-## How It Works
-1. Build a php api to call `youtube-dl -j [youtube video url]`.
-2. Make a web view to communicate with the api.
 
 ## Getting Started
 
