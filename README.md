@@ -16,12 +16,10 @@ Powered by [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 2. Install youtube-dl, Command:
 
 ```
-### Linux
+# Linux
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
-```
 
-```
-### Windows
+# Windows
 youtube-dl --update
 ```
