@@ -11,11 +11,11 @@ function getDownloadLink(){
 		try{
 			const videoObj = JSON.parse(data);
 			const targetVideo = videoObj['formats'].slice(-1)[0];
-			const videoFormatSting = targetVideo['format'].substr(targetVideo['format'].indexOf('-')+2);
+			const videoFormatString = targetVideo['format'].substr(targetVideo['format'].indexOf('-')+2);
 			$("#videoThumbnail").attr('src', videoObj['thumbnail']);
 			$("#videoTitle").text(videoObj['title']);
 			$("#videoChannel").text(videoObj['channel']);
-			$("#videoFormat").text(videoFormatSting);
+			$("#videoFormat").text(videoFormatString);
 			$("#videoDownloadButton").attr('href', targetVideo['url']);
 			$("#resultSection").removeClass('d-none');
 		}
